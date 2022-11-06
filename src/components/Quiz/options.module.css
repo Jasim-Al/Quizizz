@@ -1,0 +1,11 @@
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media (max-width: 122.6rem) {
+  .options {
+    justify-content: center;
+  }
+}

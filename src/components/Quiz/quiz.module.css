@@ -1,0 +1,25 @@
+.quiz {
+  min-height: 100vh;
+  width: 100%;
+  line-height: 2rem;
+}
+
+.question {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.timer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  height: 0.5rem;
+  width: 100vw;
+}
+
+.red {
+  background-color: #f2295f;
+}

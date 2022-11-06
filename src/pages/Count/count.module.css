@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap");
+
+.counter {
+  display: flex;
+  border: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.count {
+  font-family: "Raleway", sans-serif;
+  background: #140416;
+  font-size: 5rem;
+  font-weight: 900;
+  padding: 5rem;
+}

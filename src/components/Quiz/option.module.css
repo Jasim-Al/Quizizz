@@ -1,0 +1,36 @@
+.option {
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  padding: 0;
+  cursor: pointer;
+}
+
+@media (max-width: 75rem) {
+  .option {
+    min-width: 45%;
+  }
+}
+
+@media (max-width: 45rem) {
+  .option {
+    min-width: 90%;
+  }
+}
+
+.bg0 {
+  background-color: #4a96d9;
+}
+
+.bg1 {
+  background-color: #38a6a6;
+}
+.bg2 {
+  background-color: #f29e38;
+}
+.bg3 {
+  background-color: #d95970;
+}
